@@ -1,4 +1,4 @@
-/* Title	:	A minimal SSH client for the AlokSSH Server			*/
+/* Title	:	A minimal SSH client for the gutpSSH Server			*/
 /* Source	:	ssh_client.c 							*/	
 /* Date		:	12/03/2012	   						*/
 /* Author	:	Alok Upadhyay	   						*/

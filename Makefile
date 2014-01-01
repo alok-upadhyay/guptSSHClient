@@ -13,4 +13,4 @@ guptSSHClient : $(OBJ)
 .PHONY: clean
 
 clean : 
-	rm -f guptSSHClient $(OBJ) *.swp *.o *.swo
+	rm -f guptSSHClient $(OBJ) .*.swp *.o .*.swo .*.swn

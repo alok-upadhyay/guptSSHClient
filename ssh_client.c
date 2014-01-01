@@ -27,21 +27,10 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <openssl/sha.h>
-
+#include "ssh_client.h"
 
 /* Pre-processor directives */
 #define DELIM " "
-
-
-/* Functions and subroutines declaration */
-void sendUsername(char *);
-void hash_pass(unsigned char *, unsigned char *);
-void waitForServer();
-void writeToFile(char *, char *);
-void transferFile(char *);
-void sendPassword();
-void get_hidden_pass(char *);
-
 
 /* Global Variables */
 int sock, bytes_recieved, file_sock, file_bytes_recieved;  
